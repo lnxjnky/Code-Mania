@@ -1,0 +1,28 @@
+Abu is hungry. He climbed on the top of the nearby house and saw a bunch of bananas in a shop. Now he plans to jump on the house tops to reach for the bananas. Genie was watching his activities and he suddenly challenged abu to reach the shop in exactly 'k' hops. Assume that n houses is represented by N X N matrix where cell (i,j) represents whether house i is directly connected to house j. 1 denotes houses are connected and 0 denotes ,otherwise. Assume that Abu starts from house 1 takes 1 hop to jump from a house to a nearby house. For a given blueprint of houses,the value of k and house number of shop S, you have to tell whether Abu can reach the shop taking exactly k hops.
+Note that (i,j)=1 doesnt necessarily means (j,i)=1. Also when Abu hops he must jump from current house to some other connected house i.e a house is not connected to itself.
+
+Input:
+First line contains the test case (T).
+Each test case contains 3 space seperated integers-value of n, S and k.
+Next n lines contains n space sperated 1 or 0.
+
+Output:
+For each test case output "Yes" if Abu can successfully reach the shop in k hops or output "No", otherwise.
+
+
+For Example:
+Input:
+1
+5 3 2
+0 1 0 0 0
+0 0 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Ouput:
+Yes
+
+Constraints:
+1<= T <=100 , 1<= n <=20 , 1<= k <=100 , 1<= S <=n.
+

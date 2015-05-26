@@ -1,0 +1,18 @@
+<!--<EMBED src="ttt.wav" autostart=true loop=false volume=100 hidden=true><NOEMBED><BGSOUND src="ttt.wav"></NOEMBED>-->
+<html>
+<body>
+<script>
+
+
+//specify FULL path to midi
+var musicsrc="b.mp3"
+if (navigator.appName=="Microsoft Internet Explorer")
+document.write('<bgsound src='+'"'+musicsrc+'"'+' loop="infinite">')
+else 
+document.write('<embed src=\"'+musicsrc+'\" hidden="true" border="0" width="20" height="20" autostart="true" loop="true"><NOEMBED><BGSOUND src=\"'+musicsrc+'\"></NOEMBED>')
+
+
+</script>
+<a href="a.mp3 > Click </a>
+</body>
+</html>

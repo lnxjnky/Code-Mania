@@ -1,0 +1,6 @@
+5
+abcd
+ab.cd
+.acbd
+abbcbd
+abcd.

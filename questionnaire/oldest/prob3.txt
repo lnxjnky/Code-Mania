@@ -1,0 +1,25 @@
+==============
+Medium Problem 1
+==============
+
+Alpha in his first year of engineering is a back bencher in his class. In his first class he sits at the row number 6. In the next class in which he has not completed his assignment plans to move in the last row. To his astonishment he finds that the sum of the rows which he travelled through was equal(1+2+3+4+5=7+8). Feeling proud for his great finding he termed these numbers as good numbers. With nothing good to do he decides to find the pairs of good numbers in his class. Help him to find the good numbers
+
+Input
+First line contains the number of test cases n 
+Next n lines contains a number k(<10) indicating the index of the pair of good numbers
+
+Output
+Print n lines denoting the pair of good numbers(descending order)
+
+Example:
+
+Input:
+2
+1
+2
+
+Output:
+8 6
+49 35
+
+

@@ -1,0 +1,32 @@
+Our hero Alladin is on a mission to rescue Jasmine. He comes by a locked door which can be opened only by a combination of numbers. These special numbers are called 
+"Perfect Numbers". A Perfect Number is a number whose sum of factors is twice the number.
+For Example :
+6 (1+2+3+6 = 2*6),
+28 (1+2+4+7+14+28=2*28)
+ 
+Genie uses his magic to find the upper limit of the numbers. Help Alladin find all the perfect numbers less than equal to the maximum limit told by Genie.
+
+Input : 
+First line contains test cases T.
+Next T lines contains the upper limit told by Genie(say L).
+
+Output:
+For every test case output the sum of all the perfect numbers (inclusive the limit).
+
+Example:
+
+Input:
+3
+6 
+32
+2
+
+Output:
+6
+34
+0
+
+Constraints:
+1<= T <=100  , 1<= L <=10000
+
+

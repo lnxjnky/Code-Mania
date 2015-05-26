@@ -1,0 +1,26 @@
+<html>
+<BGSOUND id="BGSOUND_ID" LOOP=1 SRC="jsilence.mid">
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function playSound(musicsrc) {
+ if (navigator.appName=="Microsoft Internet Explorer")
+document.write('<bgsound src='+'"'+musicsrc+'"'+' loop="infinite">')
+else 
+document.write('<embed src=\"'+musicsrc+'\" hidden="true" border="0" width="20" height="20" autostart="true" loop="true"><NOEMBED><BGSOUND src=\"'+musicsrc+'\"></NOEMBED>')
+}
+
+function stopSound() {
+ if (document.all) document.all['BGSOUND_ID'].src='jsilence.mid';
+ else self.iplayer.location.replace('jsplayer.htm?stop');
+}
+//-->
+</script>
+<body>
+<form name=myform>
+<input type=button value="Play Sound" onClick="playSound('b.mp3')">
+<input type=button value="Stop Sound" onClick="stopSound()">
+</form>
+</body>
+</html>
+

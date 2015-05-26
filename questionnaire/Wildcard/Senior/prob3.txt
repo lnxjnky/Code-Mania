@@ -1,0 +1,23 @@
+As usual Abu and Lago are fighting again but in a new way. Abu speaks a number 'A' and to reply Abu Lago speaks another number 'B'. The relation between two numbers is that sum of the squares of each number is a special number. Genie tries to find the special number. But he may have made a mistake while doing the calculations. Your task is to check whether the special number found by Genie can be represented as a sum of square of two numbers.
+
+Input:
+First line contains test cases T.
+Next T lines contains the number calculated by Genie(say N).
+
+Output:
+For every test case output "Yes" , if Genie calculated write number or "No",otherwise.
+
+Example:
+
+Input:
+2
+26
+7
+
+Output:
+Yes
+No
+
+
+Constraints:
+1<= T <=100  , 1<= N <=10^15.  

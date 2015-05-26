@@ -1,0 +1,9 @@
+8
+AladDin 5 
+GeniE 1
+qwertyuiop 8
+asdfghjklQwertyuiop 15
+qwertyuiopasdfghjklZXCVBNM 26
+QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiop 34
+QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiop 4
+qwertyuiopasdfghjklzxcvbnmZQWERTYUIOPASDFGHJKLXCVBNM 51

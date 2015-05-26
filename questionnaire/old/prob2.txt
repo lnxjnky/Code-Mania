@@ -1,0 +1,26 @@
+===============
+Easy Problem 2
+===============
+
+Humpty and Dumpty are playing a game of coins in their leisure time. There are n coins placed in a row. Humpty and Dumpty flip the coins in turn starting from coin 1 by Humpty, coin 2 by Dumpty and so on. While flipping coin k, the player also flips all other coins on its right that have index divisible by k. Your task is to predict the state of last coin when the game ends.
+
+Input
+First line contains the number of test cases N
+Next N lines contain a number k (<=10^7) indicating the total number of coins
+
+Output
+Print N lines denoting the state of the last coin (head/tail)
+If it is in original state then print "head" else print "tail".
+
+Example
+
+Input
+3
+3
+4
+5
+
+Output
+head
+tail
+head

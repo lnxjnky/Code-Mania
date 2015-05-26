@@ -1,0 +1,29 @@
+===============
+Easy Problem 2
+===============
+
+Dumpty in his first year of Engineering in NIT Jamshedpur learn about "Golden Ratio" and "Fibonacci Numbers". He got excited after knowing the beauty of Fibonacci Numbers.Now he is trying to find the number of Fibonacci Numbers in the given range.You are his best friend , help him in accomplishing his task.
+
+Input :
+First line will contain the number of test cases (say T).
+Next T lines will contain the range as two space separated integers (say a and b inclusive).
+
+
+Output :
+Print T lines where each line cointain the number of Fibonacci numbers in the given range.
+
+Example :
+
+Input :
+3
+1 5
+5 11
+21 35
+
+Output :
+5
+2
+2
+
+Update: Fibonacci No starts from 0. i.e., 0,1,1,2....
+ 

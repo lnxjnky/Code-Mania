@@ -1,0 +1,30 @@
+<head>
+	<script src="jquery/jquery-1.4.2.min.js"></script>
+	<script src="acornmediaplayer/jquery.acornmediaplayer.min.js"></script>	
+	
+	
+	<script>
+		jQuery(function() {
+			
+				jQuery('#demo6, #demo6-audio').acornMediaPlayer({
+				theme: 'barebones',
+				nativeSliders: true
+			});
+		});
+	</script>
+	<script>
+	function fn()
+	{
+	var d=document.getElementById("shn");
+	d.click();
+	}
+	</script>
+</head>
+			<audio id="demo6-audio" aria-describedby="demo6-audio-descript">
+				<!--<source src="media/ptburnem-gypsyheartrock.mp3" />-->
+				<source src="media/ptburnem-gypsyheartrock.ogg" />
+			</audio>
+			
+			<body onload="fn()">
+			</body>
+			

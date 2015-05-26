@@ -1,0 +1,24 @@
+==============
+Hard Problem 1
+==============
+
+Alpha and Beta are playing a game which they term it as 'fools game'. In this game first the two persons agree upon a number of the form 2*n. Then they take n red and n blue balls and arrange in a linear form such that the number of red balls must be always greater than or equal to the number of blue balls while moving from left to right. Each of the player makes a combination which was not earlier formed. The last person making the move wins the game. Alpha wants to calculate the number of turns in the game. Help him to find it out.
+
+Input
+First line contains an integer t denoting the number of test cases
+Next t lines contains the a single integer denoting the number 'n'(<=25)(number of red and blue balls each)
+
+Output
+Print t lines denoting the number of turns in the game
+
+Example
+
+Input
+2
+2
+3
+
+Output
+2
+5
+

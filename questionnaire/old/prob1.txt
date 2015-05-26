@@ -1,0 +1,17 @@
+==============
+Easy Problem 1
+==============
+
+Write a program to input a number 'n' and print 'Code Crackers' n times each in a new line.
+
+Example:
+
+Input:
+2
+
+Output:
+Code Crackers
+Code Crackers
+
+
+Note:You should not print "Input" and "Output" and read a sample program before submitting the solutions.

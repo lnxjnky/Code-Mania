@@ -1,0 +1,23 @@
+=================
+Medium Problem 2
+=================
+
+A descendant of Einstein came across a sequence of magic numbers while carrying out his research at NIT Jamshedpur. A magic number is a prime number that is equal to the number obtained by reversing its digits. Your task is to help him find the smallest magic number greater than or equal to a given natural number.
+
+Input
+First line contains the number of test cases t (t<=10)
+Each of the next t lines contain a natural number N (<= 10^6)
+
+Output
+Display t lines each containing the smallest magic number greater than or equal to N
+
+Example
+
+Input
+2
+31
+380
+
+Output
+101
+383

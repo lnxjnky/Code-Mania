@@ -1,0 +1,27 @@
+Our hero Alladin is on a mission to rescue Jasmine. He comes to a dangerous path which have large holes in it.Aladdin cannot rescue Jasmine if he get any hole in his path.You will be given a string where '.' means hole.
+For Example :
+abcd , here no hole is found so Aladdin crosses the path.
+abc.d , here Aladdin cannot cross the path.
+ 
+
+Input : 
+First line contains test cases T.
+Next T lines contains string.
+
+Output:
+For every test case output "Yes" if Aladdin can cross the path else output "No".
+
+Example:
+
+Input:
+3
+Aladdin
+Aladd..in
+Jasmine.
+Output:
+Yes
+No
+No
+
+Constraints:
+1<= T <=100  , 1<= string length <=100

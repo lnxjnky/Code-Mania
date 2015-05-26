@@ -1,0 +1,36 @@
+==============
+Hard Problem 2
+==============
+
+You are given an expression consisiting of n terms T1,T2,T3...Tn. Your task is to find the number of ways in which the expression can be evaluated without altering the order of the terms in the expression.
+
+In case of 4 terms, the different ways are
+
+(((T1.T2).T3).T4)
+((T1.T2).(T3.T4))
+(T1.((T2.T3).T4))
+(T1.(T2.(T3.T4)))
+((T1.(T2.T3)).T4)
+
+So the required answer would be 5.
+
+Input
+First line contains the number of test cases t (<=10)
+Each of the next t lines contain a single integer n (<=1000) denoting the number of terms
+
+Output
+Display t lines each containing the number of ways modulo 10000 in which the expression can be evaluated without altering the order of the terms in the expression
+
+Example
+
+Input
+3
+3
+4
+5
+
+
+Output
+2
+5
+14

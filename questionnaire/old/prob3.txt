@@ -1,0 +1,24 @@
+=================
+Medium Problem 1
+=================
+
+2 friends Humpty and Dumpty are in their first year of engineering at NIT Jamshedpur. In their PDS subject, their faculty have announced to give away only 2 EX grades in the whole batch. But due to the presence of many bright students in the class, the faculty decides to make the students stand in a row. Then he strikes off every odd student in the row. This process continues till only two students are left. Humpty and Dumpty who are already facing many hardships in clearing the semester decides to choose a position in which they would be in the last 2 to be left out and thus helping them earn an EX grade. You being one of the finest programmers of your college, they decided to come to you for the solution of their problem.
+
+
+Input:
+First line contains the number of test cases n (n<=15)
+Then n subsequent lines follow displaying a single number k (2 <= k <= 2*10^8) 
+
+Output:
+For each test case, output two numbers in ascending order in a new line denoting the positions in which Humpty and Dumpty should stand.
+
+Example:
+
+Input
+2
+4
+8
+
+Output
+2 4
+4 8

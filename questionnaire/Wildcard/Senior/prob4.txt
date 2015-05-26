@@ -1,0 +1,24 @@
+Aladdin is  buying necklace for Jasmine. He got coins of specified denominations. He buys a necklace of S dinar but he wants to use minimum number of coins ,that he got, to pay for the necklace. Help him.
+
+
+Input :
+First line contains the test case (T)
+Each test case contains a number n and S, where n the number of various denomination of coins that Aladdin have and S is price of the necklace.
+Next line contain n space sperated integer, i.e the value of denominations.
+
+Ouput:
+For each test case output the minimum number of coins that will be used for paying for the necklace.
+
+
+For Example:
+
+Input
+1
+3 11
+1 3 5
+
+Output:
+3
+
+Constraints:
+1<= T <=100 , 1=< n <=100 , 1<= S <=1000 , 1<= value of each denominations <=100

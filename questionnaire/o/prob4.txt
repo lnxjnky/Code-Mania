@@ -1,0 +1,36 @@
+=================
+Medium Problem 2
+=================
+
+Humpty and Dumpty play the following game.They choose a number N to play with.The runs are as follows : 
+
+1.Dumpty plays first and the two players alternate. 
+
+2.In his/her turn ,a player can subtract from N any prime number(including 1) less than N.The number thus obtained is the new N. 
+
+3.The person who cannot make a move in his/her turn loses the game. 
+
+Assuming both play optimally,who wins the game ?
+
+Input:
+
+The first line contains the number of test cases T.Each of the next lines contains an integer N.
+
+Output :
+
+Output T lines one for each test case,containing "Humpty" if Humpty wins the game ,or "Dumpty" if Dumpty wins the game.
+
+Sample Input:
+2
+1
+2
+
+
+Sample Output:
+Humpty
+Dumpty
+
+
+Constraints:
+1 <= T <= 1000000
+1 <= N <= 10^18

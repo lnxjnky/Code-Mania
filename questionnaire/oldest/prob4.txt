@@ -1,0 +1,23 @@
+==============
+Medium Problem 2
+==============
+
+Alpha teaches a method to find whether a number is prime or not to Beta. Thereafter he challenges Beta to find the number of digits in the product of first 'n' prime numbers. Beta who is already overburdened with the tests and assignments comes to you for the rescue. Help him to beat the Alpha's challenge.
+
+Input
+First line contains an integer n denoting the number of test cases
+Next n lines contains the a single integer denoting the number of first m primes(1<=m<=10000)
+
+Output
+Print n lines denoting the number of digits in the first m primes
+
+Example
+
+Input
+2
+2
+4
+
+Output
+1
+3

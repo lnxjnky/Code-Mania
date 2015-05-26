@@ -1,0 +1,24 @@
+==============
+Easy Problem 2
+==============
+
+2 friends Alpha and Beta are in their first year of engineering in a prestigious college. In their PDS subject their faculty have announced to give away only 2 EX grades in the whole batch. But due the fact of presence of many bright students in class the faculty decides to make the students stand in a row, then he strikes off every odd students in the row. This process continues till only two students are left out. Alpha and Beta who are already facing many hardships in clearing the semester decides to choose a position in which they would be in the last 2 to be left out and thus earning them an EX grade. You being one of the finest programmer of your college they decided to come to you for the solution of their problem.
+
+
+Input:
+First line of the input contains the number of test cases n(n<=15). 
+Then n subsequent lines follow displaying a single number k(2 <= k <= 2*10^8) 
+
+Output:
+For each test case output the two number in ascending order in a new line denoting the positions in which Alpha and Beta should stand.
+
+Example:
+
+Input
+2
+4
+8
+
+Output
+2 4
+4 8

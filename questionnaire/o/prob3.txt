@@ -1,0 +1,33 @@
+===============
+MEDIUM PROBLEM - 1
+===============
+
+A student of NIT Jamshedpur is very fond of linux and likes Linux Words a lot. A Linux Word is a word that consists of only the letters L, I, N, U, and X in that EXACT RELATIVE ORDER. There must be exactly one L, exactly one I, one or more Ns, exactly one U and exactly one X. Case does not matter. For example, "Linux", "Linnnux" are Linux Words, whereas "Llinux", "Linuxx" are not.
+
+You are given a String Word which you must turn into a Linux Word. For each character in word, you can either replace it with a different letter or leave it unchanged. No other operations, like inserting new characters or deleting existing characters, are allowed. Print the minimal number of characters you must replace to get a Linux Word. If it's impossible, return -1.
+
+Input Format
+First line will be the number of testcases N, the following N lines will contain N words without any space.
+
+Output Format
+N lines printing the desired output.
+
+
+Example
+
+Input
+4
+Linux
+LinnnnnUx
+LNux
+Codecrackers
+
+Output
+0
+0
+-1
+12
+
+Constraints:
+1<=N<=100
+Size of string 10000 chars.

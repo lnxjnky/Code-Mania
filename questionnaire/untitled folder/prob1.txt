@@ -1,0 +1,24 @@
+Aladdin writes a word on the sand and gave a task to Abu to count the vowels in the word.As Abu is your favorite character , help Abu in completeing his task.
+Letters in tha word are assumed to be in lower case.
+
+Input:
+First line contains the test case( say T)
+Next T lines contains words.
+
+Output:
+For each test case print T lines ,each line contain the number of vowels in the given word.
+
+
+Example:
+
+Input:
+2
+aladdin
+abu
+
+Output:
+3
+2
+
+Constraints:
+Maximum length of word will be 5000. 

@@ -1,0 +1,30 @@
+#include<stdio.h>
+main()
+{
+int k,i,j,l[100],s,g[100],t,n;
+scanf("%d",&n);
+for(j=0;j<n;j++)
+{
+scanf("%d",&l[j]);
+}
+for(j=0;j<n;j++)
+{
+g[j]=0;
+for(k=1;k<=l[j];k++)
+{
+s=0;
+for(i=1;i<=k;i++)
+{
+t=k%i;
+if(t==0)
+s+=i;
+}
+if(s==2*k)
+{
+g[j]=+k;
+}
+}
+printf("\n%d",g[j]);
+}
+return 0;
+}

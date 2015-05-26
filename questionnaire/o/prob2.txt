@@ -1,0 +1,27 @@
+===============
+Easy Problem 2
+===============
+
+Write a program to print all prime numbers between A and B (inclusive).
+
+Input :
+First line contains the number of test cases T.
+Next N lines contain two numbers A and B.
+
+Output:
+Output N lines space seperated primes numbers between A and B.
+
+Sample Input
+2
+2 9
+11 23
+
+
+Sample Output
+2 3 5 7 
+11 13 17 19 23
+
+
+Constraints
+1<=T<=100
+1<=A,B<=10^6

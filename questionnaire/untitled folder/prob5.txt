@@ -1,0 +1,24 @@
+Aladdin was on a romantic date with Jasmine. Having nothing better to do Genie joined them (more of like a nuisance). To get rid of him and continue his romantic evening Aladdin handed Genie a tiresome task. He gave him a word consisting of letters A-Z and a-z and asked him to count all the anagrams that can be genrated with the help of the letters of the word taken "k" at a time. Like a naive Genie started generating all the anagrams, but soon got bored(even Genies get bored, sometimes :P). He came to you for his rescue.
+Assume word will not contain any repition of letters of same case.
+
+Input:
+First line contains test cases T.
+Next T lines contains the word told to Genie and the value of k.
+
+Output:
+For every test case output the number of anagrams formed by taking k letters at a time.
+Since the number can be very large print your answer as modulus of (10^9+7).
+
+Example:
+
+Input:
+2
+AladDin 5 
+GeniE 1
+
+Output:
+2520
+5
+
+Constraints:
+1<= T <=100  , 1<= word length <=52.  

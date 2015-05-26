@@ -1,0 +1,30 @@
+=================
+Hard Problem 1
+=================
+
+Humpty got a box of Chocolates. Box is in the form of a N X M matrix with each cell containing a chocolate in it. Humpty ate chocolates in random order from some cells. He then went to play leaving the box open. An insect fell into to the box on some cell.  Now it will infect the chocolate on which it falls. And also it will infect all the nearby chocolate cells and so on. However if a nearby cell is doesnot contain any chocolate it does not gets infected. Humpty comes home to find the some chocolate cells infected and some are still edible. Given the cells which contains the chocolates after Humpty went to play, give the number of cells of chocolates left uninfected.
+
+Input:
+First line will contain the number of test cases (T).
+Each test case contains the values of N and M.
+Each N lines will contain M numbers (0 or 1) denoting the whether the cell is empty or it contains the chocolates.(0 denotes the cell is empty and 1 denotes the cell contains chocolate).
+Next, two integers denote the co-ordinates of the cell at which the insect fell. (Cell number starts from 0.)
+
+Output:
+For each test case print the number of cells that are not infected.
+
+For example:
+1
+5 5
+1 1 1 1 1
+1 1 1 0 1
+1 1 0 0 0
+1 1 0 1 0
+1 0 0 0 1
+0 2
+
+Output:
+2
+
+Explanation:
+Insect falls at (0,2) and infects it. It also DIRECTLY infects (0,1), (0,3), (1,1) (1,2). Now each of these infected cells infects its nieghbouring cells and so on. But cells (3,3) and (4,4) are not infected.

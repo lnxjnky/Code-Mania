@@ -1,0 +1,2 @@
+/tmp/ccRspswZ.o: In function `main':
+temp0.cc:(.text+0x22): warning: the `gets' function is dangerous and should not be used.

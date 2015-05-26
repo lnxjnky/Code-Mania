@@ -1,0 +1,26 @@
+Aladdin and Jasmine are playing a game in which Aladdin writes a word on a board and Jasmine writes a word which have same letters as the word written by Aladdin. Also the word written by Jasmine consists of same numbers of letters as in Aladdin's word.
+For Example:
+Alladin : DOG
+Jasmine : GOD
+For given word written by Aladdin and Jasmine you have to tell whether Jasmine had written the word according to the rule of the game.The words are assumed to be in UPPER case.
+
+Input:
+First line contains the number of test cases(say T).
+Next T lines will contain two words, first one is written by Aladdin followed by Jasmine.
+
+Output:
+For every test case you have to tell "Yes", if Jasmine followed the rule and "No", otherwise
+
+Example:
+
+Input:
+2
+GOD DOG
+GOD GGD
+
+Ouput:
+Yes
+No
+
+Constraints:
+Maximum Size of the words can be 5000.
